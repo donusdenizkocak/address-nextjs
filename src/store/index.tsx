@@ -1,4 +1,4 @@
-import { configureStore } from "@reduxjs/toolkit"
+import { configureStore,getDefaultMiddleware } from "@reduxjs/toolkit"
 
 //** Reducers */
 import country from "@/store/apps/country"

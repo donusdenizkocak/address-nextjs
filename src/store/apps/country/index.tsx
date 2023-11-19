@@ -4,7 +4,7 @@ import axios from "axios"
 
 
 export const getCountry = createAsyncThunk('country', async() =>{
-    const response = await axios.get('/country')
+    const response = await axios.get('http://localhost:3080/country')
 
     return response.data
 })
